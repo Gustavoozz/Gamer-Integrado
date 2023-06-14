@@ -4,6 +4,102 @@
     ViewData["Title"] = "Equipe";
 }
 
+
+
+    <!-- MAIN -->
+    <main>
+
+        <section class="container-grid cadastro-equipes">
+            
+            
+
+        @if (ViewBag.Username == null)
+        {
+            <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+        }
+
+        else
+        {
+
+
+            <form method="post" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
+                <div class="cadequipe-titulo">
+                    <h1>Cadastro de Equipes</h1>
+                    <hr>
+                </div>
+
+                <input class="campo-entrada" type="number" id="idEquipe" placeholder="Digite o Id da sua equipe:">
+                <input class="campo-entrada" name="Nome" required type="text" placeholder="Digite o nome da sua equipe:">
+                <label class="foto" for="foto-file">
+                    Nenhuma imagem selecionada...
+                    <input  type="file" name="Imagem" id="foto-file">
+                </label>
+                
+                <button>Cadastro</button>
+                
+                
+                
+                <!-- <select class="equipeid" id="equipeid">
+                    <option value="">Selecione uma Equipe</option>
+                    <option value="x">Equipe X</option>
+                    <option value="y">Equipe Y</option>
+                </select> -->
+            </form>
+
+            <!-- TABELA CADASTRO DE EQUIPES -->
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Foto</th>
+                        <th>&spades;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Loud</td>
+                        <td><img class="green-play" src="~/assets/green-play.svg" alt=""></td>
+                        <td><img class="yellow-trash" src="~/assets/trash.png" alt=""></td>
+                    </tr>
+
+                 @foreach (Equipe equipe in ViewBag.Equipe)
+                    {
+                    <tr>
+                        <td>@equipe.IdEquipe</td>
+                        <td>@equipe.Nome</td>
+                        <td>
+                        <a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe">
+                             <img src="/img/Equipes/@equipe.Imagem" alt="Imagem da equipe @equipe.Nome" width="50px">
+                        </a>
+                        </td>
+                        <td>
+                        <a asp-areas="" asp-controller="Equipe" asp-action="Editar" asp-route-id="@equipe.IdEquipe">
+                        <img class="yellow-trash" src="~/assets/trash.png" alt="">
+                            </a>
+                        </td>
+                    </tr>
+                    }
+
+
+
+
+
+
+                </tbody>
+            </table>
+            }
+        </section>
+    </main>
+
+
+
+
+
+
+@* 
 <h1>Tela de Equipes</h1>
 
 
@@ -57,3 +153,5 @@ else
     </tbody>
 </table>
 }
+ *@
+

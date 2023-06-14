@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bmvx9MXAr0vqRA/ojYApY7Ujf+Ld7lSgwW+LAKIoBNOmit+SeRXnXKM5LvA2QTM+332cL3j7Xbc1IW9KMIXPbQ==",
+  "dgSpecHash": "jJk1NqF7PWE2ad7LD1ORGRWhfbvAD4xSU+PBD+T2WM01LKDRr8/X08ouOg0PMDcJ40Gb6iDfHseQpE4xdWivEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\53844614893\\Desktop\\SQL\\Projeto Gamer Full\\Projeto Gamer Full.csproj",
+  "projectFilePath": "C:\\Users\\53844614893\\Desktop\\Projeto Gamer Full\\Projeto Gamer Full.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\53844614893\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\53844614893\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

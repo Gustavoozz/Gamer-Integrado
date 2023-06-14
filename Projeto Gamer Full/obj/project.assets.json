@@ -10574,11 +10574,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\53844614893\\Desktop\\SQL\\Projeto Gamer Full\\Projeto Gamer Full.csproj",
+      "projectUniqueName": "C:\\Users\\53844614893\\Desktop\\Projeto Gamer Full\\Projeto Gamer Full.csproj",
       "projectName": "Projeto Gamer Full",
-      "projectPath": "C:\\Users\\53844614893\\Desktop\\SQL\\Projeto Gamer Full\\Projeto Gamer Full.csproj",
+      "projectPath": "C:\\Users\\53844614893\\Desktop\\Projeto Gamer Full\\Projeto Gamer Full.csproj",
       "packagesPath": "C:\\Users\\53844614893\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\53844614893\\Desktop\\SQL\\Projeto Gamer Full\\obj\\",
+      "outputPath": "C:\\Users\\53844614893\\Desktop\\Projeto Gamer Full\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\53844614893\\AppData\\Roaming\\NuGet\\NuGet.Config",
