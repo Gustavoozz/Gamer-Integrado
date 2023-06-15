@@ -11,8 +11,6 @@
 
         <section class="container-grid cadastro-equipes">
             
-            
-
         @if (ViewBag.Username == null)
         {
             <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
@@ -20,9 +18,7 @@
 
         else
         {
-
-
-            <form method="post" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
+            <form class ="frm-cad-equipe" method="post" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
                 <div class="cadequipe-titulo">
                     <h1>Cadastro de Equipes</h1>
                     <hr>
@@ -39,14 +35,14 @@
                 
                 
                 
-                <!-- <select class="equipeid" id="equipeid">
+                @* <!-- <select class="equipeid" id="equipeid">
                     <option value="">Selecione uma Equipe</option>
                     <option value="x">Equipe X</option>
                     <option value="y">Equipe Y</option>
-                </select> -->
+                </select> --> *@
             </form>
 
-            <!-- TABELA CADASTRO DE EQUIPES -->
+            @* <!-- TABELA CADASTRO DE EQUIPES --> *@
 
             <table>
                 <thead>
@@ -54,39 +50,33 @@
                         <th>Id</th>
                         <th>Nome</th>
                         <th>Foto</th>
-                        <th>&spades;</th>
+                        <th>Ações</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    @* <tr>
                         <td>1</td>
                         <td>Loud</td>
                         <td><img class="green-play" src="~/assets/green-play.svg" alt=""></td>
                         <td><img class="yellow-trash" src="~/assets/trash.png" alt=""></td>
-                    </tr>
+                    </tr> *@
 
                  @foreach (Equipe equipe in ViewBag.Equipe)
                     {
                     <tr>
-                        <td>@equipe.IdEquipe</td>
-                        <td>@equipe.Nome</td>
-                        <td>
-                        <a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe">
-                             <img src="/img/Equipes/@equipe.Imagem" alt="Imagem da equipe @equipe.Nome" width="50px">
-                        </a>
-                        </td>
-                        <td>
-                        <a asp-areas="" asp-controller="Equipe" asp-action="Editar" asp-route-id="@equipe.IdEquipe">
-                        <img class="yellow-trash" src="~/assets/trash.png" alt="">
-                            </a>
-                        </td>
-                    </tr>
+                            <td>@equipe.IdEquipe</td>
+                            <td>@equipe.Nome</td>
+                            <td><img src="/img/equipes/@equipe.Imagem" alt="Imagem da Equipe @equipe.Nome" width="50px"></td>
+                            <td>
+                                <a asp-area="" asp-controller="Equipe" asp-action="Excluir"
+                                    asp-route-id="@equipe.IdEquipe"><img src="~/assets/trash.png" alt="Excluir"></a>
+                            </td>
+                            <td>
+                                <a asp-area="" asp-controller="Equipe" asp-action="Editar"
+                                    asp-route-id="@equipe.IdEquipe"><img src="" alt="Editar"></a>
+                            </td>
+                        </tr>
                     }
-
-
-
-
-
 
                 </tbody>
             </table>

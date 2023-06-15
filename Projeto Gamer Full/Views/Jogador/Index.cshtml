@@ -9,9 +9,14 @@
     <main>
 
         <section class="container-grid cadastro-equipes">
+
+             @if (ViewBag.Username == null)
+        {
+            <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+        }
             
-            
-            <form action="" class="frm-cad-equipe">
+        
+             <form action="" class="frm-cad-equipe">
                 <div class="cadequipe-titulo">
                     <h1>Cadastro de Jogadores</h1>
                     <hr>
@@ -35,8 +40,8 @@
                 
                 
             </form>
-
-            <!-- TABELA CADASTRO DE EQUIPES -->
+@* 
+            <!-- TABELA CADASTRO DE EQUIPES --> *@
 
             <table>
                 <thead>
@@ -50,7 +55,7 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Eduardo</td\>
+                        <td>Eduardo</td>
                         <td>eduardo@gmail.com</td>
                         <td><img class="yellow-trash" src="~/assets/trash.png" alt=""></td>
                     </tr>
@@ -68,6 +73,7 @@
                     </tr>
                 </tbody>
             </table>
+                  
         </section>
     </main>
 
