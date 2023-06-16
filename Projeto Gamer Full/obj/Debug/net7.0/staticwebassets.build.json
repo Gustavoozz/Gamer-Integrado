@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VWNV+tSBwYXSTKzmte8epye3RwEW+zyqV2R83/jT28A=",
+  "Hash": "CIIdwtzeEOl+i70Bp0YrZ7+YFqY+dgsVEf5U+UaXkAs=",
   "Source": "Projeto Gamer Full",
   "BasePath": "_content/Projeto Gamer Full",
   "Mode": "Default",
@@ -1564,6 +1564,23 @@
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\abner.jpg"
     },
     {
+      "Identity": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\img\\Equipes\\artworks-d2Fyw0XiU6sCgTf9-Pm1O3g-t500x500.jpg",
+      "SourceId": "Projeto Gamer Full",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\",
+      "BasePath": "_content/Projeto Gamer Full",
+      "RelativePath": "img/Equipes/artworks-d2Fyw0XiU6sCgTf9-Pm1O3g-t500x500.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\artworks-d2Fyw0XiU6sCgTf9-Pm1O3g-t500x500.jpg"
+    },
+    {
       "Identity": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\img\\Equipes\\default-team-logo.png",
       "SourceId": "Projeto Gamer Full",
       "SourceType": "Discovered",
@@ -1632,6 +1649,23 @@
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\maxresdefault.jpg"
     },
     {
+      "Identity": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\img\\Equipes\\mQoHcZfq_400x400.jpg",
+      "SourceId": "Projeto Gamer Full",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\",
+      "BasePath": "_content/Projeto Gamer Full",
+      "RelativePath": "img/Equipes/mQoHcZfq_400x400.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\mQoHcZfq_400x400.jpg"
+    },
+    {
       "Identity": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\img\\Equipes\\padrao.png",
       "SourceId": "Projeto Gamer Full",
       "SourceType": "Discovered",
@@ -1647,6 +1681,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\padrao.png"
+    },
+    {
+      "Identity": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\img\\Equipes\\united-states-national-soccer-team-logo-0.png",
+      "SourceId": "Projeto Gamer Full",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\",
+      "BasePath": "_content/Projeto Gamer Full",
+      "RelativePath": "img/Equipes/united-states-national-soccer-team-logo-0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\united-states-national-soccer-team-logo-0.png"
     },
     {
       "Identity": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\js\\site.js",

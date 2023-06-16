@@ -38,7 +38,9 @@ header #mostra-esconde-icones {
     display: none;
 }
 
-.header-flex {}
+.header-flex {
+    
+}
 
 header .header-bottom {
     display: flex;
@@ -180,21 +182,11 @@ header .icons-header img {
 
 
 
-
-
-
-
-
-
-
-
-
 /* Mobile Queries */
 
 @media screen and (min-width: 992px) {
 
 
-    
     .header {
         position: static;
         height: auto;

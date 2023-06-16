@@ -369,8 +369,16 @@
       "PackagePath": "staticwebassets\\img\\Equipes\\abner.jpg"
     },
     {
+      "Id": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\img\\Equipes\\artworks-d2Fyw0XiU6sCgTf9-Pm1O3g-t500x500.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\artworks-d2Fyw0XiU6sCgTf9-Pm1O3g-t500x500.jpg"
+    },
+    {
       "Id": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\img\\Equipes\\default-team-logo.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\default-team-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\img\\Equipes\\mQoHcZfq_400x400.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\mQoHcZfq_400x400.jpg"
     },
     {
       "Id": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\img\\Equipes\\maxresdefault.jpg",
@@ -379,6 +387,10 @@
     {
       "Id": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\img\\Equipes\\padrao.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\padrao.png"
+    },
+    {
+      "Id": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\img\\Equipes\\united-states-national-soccer-team-logo-0.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\united-states-national-soccer-team-logo-0.png"
     },
     {
       "Id": "C:\\Users\\53844614893\\Desktop\\Gamer-Integrado\\Projeto Gamer Full\\wwwroot\\js\\site.js",

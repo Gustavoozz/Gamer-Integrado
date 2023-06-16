@@ -109,9 +109,9 @@ namespace Projeto_Gamer_Full.Controllers
         {
             ViewBag.UserName = HttpContext.Session.GetString("UserName");
             
-            Equipe e = c.Equipe.First(e => e.IdEquipe == id);
+            Equipe equipe = c.Equipe.First(x => x.IdEquipe == id);
 
-            ViewBag.Equipe = e;
+            ViewBag.Equipe = equipe;
 
             return View("Edit");
         }

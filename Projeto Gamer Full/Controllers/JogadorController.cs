@@ -44,7 +44,7 @@ namespace Projeto_Gamer_Full.Controllers
             novoJogador.Nome = form["Nome"].ToString();
             novoJogador.Email = form["Email"].ToString();
             novoJogador.Senha = form["Senha"].ToString();
-            novoJogador.IdEquipe = int.Parse(form["Equipe"].ToString());
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
              
 
             c.Jogador.Add(novoJogador);
@@ -72,13 +72,15 @@ namespace Projeto_Gamer_Full.Controllers
 
 
 
-        [Route("Editar/{id}")]
+     [Route("Editar/{id}")]
         public IActionResult Editar(int id)
         {
             ViewBag.UserName = HttpContext.Session.GetString("UserName");
-            Jogador jogadorBuscado = c.Jogador.FirstOrDefault(j => j.IdJogador == id)!;
+            
+            Jogador jogador = c.Jogador.First(j => j.IdJogador == id);
 
-            ViewBag.Jogador = jogadorBuscado;
+            ViewBag.Jogador = jogador;
+
             ViewBag.Equipe = c.Equipe.ToList();
 
             return View("Edit");

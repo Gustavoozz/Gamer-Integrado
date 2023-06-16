@@ -109,6 +109,11 @@ main .cadastro-equipes .frm-cad-equipe .campo-entrada {
 
 
 /* File Field */
+main .frm-cad-equipe select option
+{
+    color: black;
+}
+
 
 main .cadastro-equipes .frm-cad-equipe .foto input { 
     display: none;

@@ -6,36 +6,33 @@
 
 <link rel="stylesheet" href="~/css/equipes.css">
 
-
-
-@if (ViewBag.Username == null)
-{
+@if (ViewBag.UserName == null)
+{   
     <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
 }
+else
+{
+    @* <!-- MAIN --> *@
+    <main>
 
-
-else {
-    <form class ="frm-cad-equipe" method="post" action='@Url.Action("Atualizar")' enctype="multipart/form-data">
+        <section class="container-grid cadastro-equipes"> 
+            <form class="frm-cad-equipe" method="POST" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
                 <div class="cadequipe-titulo">
                     <h1>Edição de Equipes</h1>
                     <hr>
                 </div>
 
                 <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
-
-                <input class="campo-entrada" name="Nome" required type="text" value="@ViewBag.Equipe.Nome" placeholder="Digite o nome da sua equipe:">
-
-                <label class="foto" for="foto-file">
-                    Nenhuma imagem selecionada...
-                    <input  type="file" name="Imagem" value="ViewBag.Equipe.Imagem" id="foto-file">
+                <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" name="Nome" value="@ViewBag.Equipe.Nome" required>
+                <label class="foto" for="foto-file">                    
+                    <input type="file" id="foto-file" name="Imagem" value="@ViewBag.Equipe.Imagem" >
                 </label>
                 
                 <button type="submit">Atualizar</button>
-    </form>
+            </form>
+        </section>
+    </main>
 }
-
-
-
 
 
 @* 
